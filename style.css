@@ -30,6 +30,7 @@ h1 {
   pointer-events: none;
   left: -100px;
   top: 50%;
+  mix-blend-mode: difference;
   background-color: white;
   z-index: 10000;
   border: 2px solid white;
