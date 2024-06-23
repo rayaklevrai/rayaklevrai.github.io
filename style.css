@@ -31,7 +31,7 @@ h1 {
   left: -100px;
   top: 50%;
   mix-blend-mode: difference;
-  background-color: black;
+  background-color: white;
   z-index: 10000;
   border: 2px solid white;
   height: 30px;
