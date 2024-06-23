@@ -15,3 +15,14 @@ function afficherHeure() {
 
 // Mettre à jour l'heure toutes les secondes
 setInterval(afficherHeure, 1000);
+
+const cercle = document.getElementById('monCercle');
+
+if (cercle) {
+  document.addEventListener('mousemove', (event) => {
+    cercle.style.left = event.clientX - 25 + 'px'; 
+    cercle.style.top = event.clientY - 25 + 'px';  
+  });
+} else {
+  console.error("L'élément avec l'ID 'monCercle' n'a pas été trouvé.");
+}
