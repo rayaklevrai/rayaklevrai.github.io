@@ -16,7 +16,7 @@ function afficherHeure() {
 // Mettre à jour l'heure toutes les secondes
 setInterval(afficherHeure, 1000);
 
-const cursor = document.getElementById("cursor");
+var cursor = document.getElementById("cursor");
 document.body.addEventListener("mousemove", function(e) {
   cursor.style.left = e.clientX + "px",
     cursor.style.top = e.clientY + "px";
